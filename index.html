@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta chartset="utf-8">
+		<title>Pokemon GO club homepage</title>
+		<style>
+			.center {
+				margin: auto;
+				width: 50%;
+			}
+			img {
+    				display: block;
+    				margin-left: auto;
+    				margin-right: auto;
+					margin-bottom: 20px;
+					margin-top: 20px;
+
+			}
+			.centerbox {
+    				margin: auto;
+    				width: 80%;
+    				border: 3px solid #314159;
+    				padding: 10px;
+				margin-bottom: 20px;
+
+			}
+			* {
+				box-sizing: border-box;
+			}
+
+			.img-container {
+				float: left;
+				width: 25%;
+				padding: 5px;
+			}
+
+			.clearfix::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
+		</style>		
+	</head>
+	<body>
+		<audio id="pikachuCry">
+			<source src="sound/pikachuCry.ogg" type="audio/ogg">
+			Your browser does not support the audio element.
+		</audio>
+		<audio id="bulbasaurCry">
+			<source src="sound/bulbasaurCry.ogg" type="audio/ogg">
+			Your browser does not support the audio element.
+		</audio>
+		<audio id="charmanderCry">
+			<source src="sound/charmanderCry.ogg" type="audio/ogg">
+			Your browser does not support the audio element.
+		</audio>
+		<audio id="fail">
+			<source src="sound/fail.mp3" type="audio/mp3">
+			Your browser does not support the audio element.
+		</audio>
+		<h1 class="center">Welcome to the Pokemon GO club!</h1>
+		<img src="img/pokemon-go-logo.png" alt="Pokemon GO Logo" width="500">
+		<div class="centerbox">
+  			<p><b>Last Community Day update: </b>Our first Pokemon GO club outing was a success. We caught shiny Bulbasaurs, evolved Frenzy Plant Venusaurs, hatched our eggs from the Eggstravaganza event and did 3 Lugia raids! In fact, everyone caught the last Lugia! We also walked more than 10,000 steps, enjoyed a sunny Santa Monica day on the pier and ran into a lot of other trainers out playing Pokémon Go (some of them also gave us some cool tricks and tips to try).</p>
+			<div class="clearfix">
+				<div class="img-container">
+					<a href="img/lugia.jpg"><img src="img/lugia.jpg" alt="Lugia" width="150"></a>
+				</div>
+				<div class="img-container">
+					<a href="img/bulbasaur.jpg"><img src="img/bulbasaur.jpg" alt="Shiny Bulbasaur" width="150"></a>
+				</div>
+				<div class="img-container">
+					<a href="img/venusaur.jpg"><img src="img/venusaur.jpg" alt="Shiny Venusaur" width="150"></a>
+				</div>
+				<div class="img-container">
+					<a href="img/steps.jpg"><img src="img/steps.jpg" alt="Total Steps" width="150"></a>
+				</div>
+			</div>
+		</div>
+	<div class="centerbox">
+  		<p><b>Next Community Day: </b>The next Community Day will happen on 4/15/18 from 11AM-2PM. The Pokemon that is featured will be Mareep. The bonus of this event will be 1/4 egg hatching distance. For now, the special move is unknown, but this will be updated when Niantic announces it. <a href="https://pokemongohub.net/post/news/pokemon-go-april-community-day-mareep-1-4-egg-hatch-distance/">Click here</a> for more info and the results of Community day #3.</p>
+		<div class="clearfix">
+			<a href="img/communityday.jpg"><img src="img/communityday.jpg" alt="Community Day #4" width="500"></a>
+		</div>
+	</div>
+	<div class="centerbox">
+  		<p><b>Quests: </b>A new feature called quests is to come out on Friday. The mythical Pokemon Mew is expected to come with quests. The latest update has a new loading screen to show what quests will look like. This will be updated when quests and other things come out. <a href="https://pokemongohub.net/post/guide/quests-field-research-guide/">Click here</a> for more info about quests.<br><b>3/29/18: </b>Shiny Mew has been leaked and it might come out</p>
+		<div class="clearfix">
+			<a href="img/quests.jpg"><img src="img/quests.jpg" alt="Community Day #4" width="500"></a>
+		</div>
+	</div>
+	<span></span>
+	<canvas id="myCanvas" width="300" height="300" style="border:3px solid #314159;">
+		
+	</canvas>
+	<input type="text" id="pokemonGuess" value="use lower case only">
+	<script type="text/javascript" src="wtp.js">
+		
+	</script>
+	</body>
+</html>
