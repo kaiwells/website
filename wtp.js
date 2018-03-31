@@ -146,5 +146,6 @@ function startGame() {
 	drawImage("BlueTile");
 }
 
+//Let's add something else
 
 
