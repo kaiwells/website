@@ -148,11 +148,3 @@ function startGame() {
 
 
 
-/*
-var ctx = document.querySelector("canvas").getContext("2d");
-var img = new Image();
-img.onload = function() {
-ctx.drawImage(img,0,0,50,50);
-};
-img.src = "img_the_scream.jpg";
-*/
